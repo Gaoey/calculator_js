@@ -1,6 +1,5 @@
 $(document).ready(function () {
     var show = show ? show : '0';
-    // $("input[type='text']").val(show);
     function stateChange(show, str) {
         show = show+""
         return show === '0' ? str : show.concat(str)
